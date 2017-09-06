@@ -26,6 +26,15 @@ res <- res[,c(2,1,3:ncol(res))]
 # embrace colnames with <> to denote that the value is averaged
 colnames(res)[3:ncol(res)] <- paste("<", colnames(res)[3:ncol(res)], ">", sep = "")
 
+write.table(res, "tidydata.txt", row.names = FALSE)
+
+
+
+
+
+
+
+
 ### bonus : the dplyr version
 library(dplyr)
 res <- dt %>% group_by(subject, activity) %>% summarise_all(mean)
