@@ -6,33 +6,57 @@ There are two ways of getting clean data.
 * the wide dataset looks like
 
  subject     activity      measurement_1       measurement_2       measurement_3
+
 SUBJECT_1   ACTIVITY_1   AVG_MEASUREMENT_1   AVG_MEASUREMENT_2   AVG_MEASUREMENT_3
+
 SUBJECT_1   ACTIVITY_2   AVG_MEASUREMENT_1   AVG_MEASUREMENT_2   AVG_MEASUREMENT_3
+
 SUBJECT_1   ACTIVITY_3   AVG_MEASUREMENT_1   AVG_MEASUREMENT_2   AVG_MEASUREMENT_3
+
 SUBJECT_2   ACTIVITY_1   AVG_MEASUREMENT_1   AVG_MEASUREMENT_2   AVG_MEASUREMENT_3
+
 SUBJECT_2   ACTIVITY_2   AVG_MEASUREMENT_1   AVG_MEASUREMENT_2   AVG_MEASUREMENT_3
+yy
 SUBJECT_2   ACTIVITY_3   AVG_MEASUREMENT_1   AVG_MEASUREMENT_2   AVG_MEASUREMENT_3
 
 * the narrow dataset looks like
 
  subject     activity   measurement_name  measurement_value
+
 SUBJECT_1   ACTIVITY_1   measurement_1    AVG_MEASUREMENT_1
+
 SUBJECT_1   ACTIVITY_1   measurement_2    AVG_MEASUREMENT_2
+
 SUBJECT_1   ACTIVITY_1   measurement_3    AVG_MEASUREMENT_3
+
 SUBJECT_1   ACTIVITY_2   measurement_1    AVG_MEASUREMENT_1
+
 SUBJECT_1   ACTIVITY_2   measurement_2    AVG_MEASUREMENT_2
+
 SUBJECT_1   ACTIVITY_2   measurement_3    AVG_MEASUREMENT_3
+
 SUBJECT_1   ACTIVITY_3   measurement_1    AVG_MEASUREMENT_1
+
 SUBJECT_1   ACTIVITY_3   measurement_2    AVG_MEASUREMENT_2
+
 SUBJECT_1   ACTIVITY_3   measurement_3    AVG_MEASUREMENT_3
+
 SUBJECT_2   ACTIVITY_1   measurement_1    AVG_MEASUREMENT_1
+
 SUBJECT_2   ACTIVITY_1   measurement_2    AVG_MEASUREMENT_2
+
 SUBJECT_2   ACTIVITY_1   measurement_3    AVG_MEASUREMENT_3
+
 SUBJECT_2   ACTIVITY_2   measurement_1    AVG_MEASUREMENT_1
+
 SUBJECT_2   ACTIVITY_2   measurement_2    AVG_MEASUREMENT_2
+
 SUBJECT_2   ACTIVITY_2   measurement_3    AVG_MEASUREMENT_3
+
 SUBJECT_2   ACTIVITY_3   measurement_1    AVG_MEASUREMENT_1
+
 SUBJECT_2   ACTIVITY_3   measurement_2    AVG_MEASUREMENT_2
+
 SUBJECT_2   ACTIVITY_3   measurement_3    AVG_MEASUREMENT_3
 
 The wide data set will have many columns if there are many measurements, while the narrow data set will always have four columns.
