@@ -2,8 +2,8 @@
 
 ### Description of the variables
 
-* subject                                              : the id of the subject for each subject and each activity
-* activity                                             : the activity of the subject for each subject and each activity
+* subject                                              : the id of the subject
+* activity                                             : the activity of the subject
 * timeDomain.BodyAcceleration-mean-X                   : average of the measurement tBodyAcc-mean()-X for each subject and each activity
 * timeDomain.BodyAcceleration-mean-Y                   : average of the measurement tBodyAcc-mean()-Y for each subject and each activity
 * timeDomain.BodyAcceleration-mean-Z                   : average of the measurement tBodyAcc-mean()-Z for each subject and each activity
